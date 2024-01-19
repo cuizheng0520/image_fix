@@ -1,0 +1,7 @@
+paddlepaddle
+paddlehub
+numpy
+opencv-python
+matplotlib
+shapely
+pyclipper
