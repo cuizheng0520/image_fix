@@ -8,7 +8,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 
-class ImgFixer:
+class WatermarksRemover:
     def __init__(self, words='', image_save_folder='data/results', show_process=True):
         self.ocr = hub.Module(name="chinese_ocr_db_crnn_server")
         self.use_gpu = False

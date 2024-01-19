@@ -1,5 +1,5 @@
 import glob
-from image_fix import ImgFixer
+from remover import WatermarksRemover
 
 
 def get_image_filenames():
@@ -13,7 +13,7 @@ def get_image_filenames():
 # words to be removed
 remove_words = "SIEMENS"
 # new fixer instance
-ir = ImgFixer(words=remove_words, image_save_folder='data/results', show_process=True)
+ir = WatermarksRemover(words=remove_words, image_save_folder='data/results', show_process=True)
 image_names = get_image_filenames()
 print('start processing...')
 for image_name in image_names:
