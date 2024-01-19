@@ -1,13 +1,16 @@
-## Batch Watermarks Remover 
+## Batch Watermarks Remover
 
 Remove text watermarks in batches.
+用于从图片中批量自动移除文字水印。它使用 Paddle ocr、OpenCV 实现水印识别与移除
 
-install: 
+install:
+
 ```markdown
 pip install -r requirements.txt 
 ```
 
 run demo:
+
 ```markdown
 python demo.py
 ```
